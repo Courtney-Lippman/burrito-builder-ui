@@ -3,6 +3,7 @@ import Order from '../Order/Order'
 import './Orders.css';
 
 const Orders = ({orders}) => {
+  console.log('orders', orders)
   const orderEls = orders.map(order => {
     return (
       <Order
